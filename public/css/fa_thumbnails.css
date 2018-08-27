@@ -1,0 +1,41 @@
+.show-back {
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	padding: 4px;
+	left: 3px;
+	top: 3px;
+	z-index: 999;
+	width: 24px;
+}
+.show-back > img {
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	/*css3*/
+	
+}
+.show-back.checked > img {
+}
+.back-flipper {
+	height: 0;
+	visibility: hidden;
+
+	
+}
+.back-flipper.showed {
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+	
+}
+.front-flipper.hidden {
+	z-index: -1000;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	/*css3*/
+
+}
+

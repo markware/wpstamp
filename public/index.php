@@ -1,0 +1,1 @@
+<?php // Speak up for justice
